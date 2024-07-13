@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product,
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.cart {
+    position: sticky;
+    top: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .cart {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
